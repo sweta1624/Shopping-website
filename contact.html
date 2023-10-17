@@ -61,16 +61,16 @@
         </section>
     </section>
 <section id="formdetails">
-    <form action="">
+    <form action="" id="contact">
+        <p><br><em>Any Queries?</em> <br> <br></p>
+        <div class="sent">Your response is successfully sent</div>
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
         
-        <h2><span>Any Queries?</span> <br>We would love to hear from you!</h2>
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Subject">
-        <textarea name="" id="" cols="30" rows="30" placeholder="Your message">
-
-        </textarea>
-          <button class="normal">Submit</button>
+        <textarea id="msg" rows="5" placeholder="Message"></textarea>
+        <button type="submit" class="normal">Submit</button>
+        
+        
     </form>
 </section>
 
@@ -125,5 +125,7 @@
          <p>Tsukikuki.shop Original</p>
        </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
     </body>
 </html>
